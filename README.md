@@ -39,7 +39,7 @@ chemprop_train --data_path data/tox21.csv --dataset_type classification --save_d
 run.sh data
 # run shell script on Grid.ai using requirments.txt
 grid run run.sh grid:chemprop:1
-# shell script on Grid.ai with environment.yml to build out the conda environment
+# shell script on Grid.ai with environment.yml to build out the conda environment (will override and use base)
 grid run --dependency_file environment.yml run.sh grid:chemprop:1
 
 ```
