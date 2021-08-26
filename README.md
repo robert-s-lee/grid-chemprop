@@ -33,6 +33,11 @@ grid datastore create --name chemprop --source data
 
 ```
 chemprop_train --data_path data/tox21.csv --dataset_type classification --save_dir tox21_checkpoints
+
+run.sh data
+grid run run.sh grid:chemprop:1
+grid run --dependency_file environment.yml run.sh grid:chemprop:1
+
 ```
 
 
