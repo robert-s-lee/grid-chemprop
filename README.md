@@ -40,7 +40,7 @@ run.sh --data_dir data
 on Grid.ai
 
 ```bash
-# run shell script on Grid.ai using requirments.txt
+# run shell script on Grid.ai using requirements.txt
 grid run run.sh --data_dir grid:chemprop:1
 # shell script on Grid.ai with environment.yml to build out the conda environment (will override and use base)
 grid run --dependency_file environment.yml run.sh --data_dir grid:chemprop:1
