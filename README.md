@@ -31,11 +31,15 @@ grid datastore create --name chemprop --source data
 
 # Training
 
-```
+Many ways to run
+```bash
+# command line
 chemprop_train --data_path data/tox21.csv --dataset_type classification --save_dir tox21_checkpoints
-
+# as a shell script
 run.sh data
+# run shell script on Grid.ai using requirments.txt
 grid run run.sh grid:chemprop:1
+# shell script on Grid.ai with environment.yml to build out the conda environment
 grid run --dependency_file environment.yml run.sh grid:chemprop:1
 
 ```
