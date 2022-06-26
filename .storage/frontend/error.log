@@ -1,0 +1,63 @@
+Exception in thread Thread-4:
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/lai/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/opt/miniconda3/envs/lai/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/miniconda3/envs/lai/lib/python3.8/site-packages/lightning_app/utilities/app_helpers.py", line 209, in target_fn
+    asyncio.run(update_fn())
+  File "/opt/miniconda3/envs/lai/lib/python3.8/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/opt/miniconda3/envs/lai/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/envs/lai/lib/python3.8/site-packages/lightning_app/utilities/app_helpers.py", line 198, in update_fn
+    async with websockets.connect(ws_url) as websocket:
+  File "/opt/miniconda3/envs/lai/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/opt/miniconda3/envs/lai/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/opt/miniconda3/envs/lai/lib/python3.8/asyncio/tasks.py", line 501, in wait_for
+    raise exceptions.TimeoutError()
+asyncio.exceptions.TimeoutError
+Exception in thread Thread-5:
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/lai/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/opt/miniconda3/envs/lai/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/miniconda3/envs/lai/lib/python3.8/site-packages/lightning_app/utilities/app_helpers.py", line 209, in target_fn
+    asyncio.run(update_fn())
+  File "/opt/miniconda3/envs/lai/lib/python3.8/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/opt/miniconda3/envs/lai/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/envs/lai/lib/python3.8/site-packages/lightning_app/utilities/app_helpers.py", line 198, in update_fn
+    async with websockets.connect(ws_url) as websocket:
+  File "/opt/miniconda3/envs/lai/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/opt/miniconda3/envs/lai/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/opt/miniconda3/envs/lai/lib/python3.8/asyncio/tasks.py", line 501, in wait_for
+    raise exceptions.TimeoutError()
+asyncio.exceptions.TimeoutError
+Exception in thread Thread-6:
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/lai/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/opt/miniconda3/envs/lai/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/miniconda3/envs/lai/lib/python3.8/site-packages/lightning_app/utilities/app_helpers.py", line 209, in target_fn
+    asyncio.run(update_fn())
+  File "/opt/miniconda3/envs/lai/lib/python3.8/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/opt/miniconda3/envs/lai/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/miniconda3/envs/lai/lib/python3.8/site-packages/lightning_app/utilities/app_helpers.py", line 198, in update_fn
+    async with websockets.connect(ws_url) as websocket:
+  File "/opt/miniconda3/envs/lai/lib/python3.8/site-packages/websockets/legacy/client.py", line 633, in __aenter__
+    return await self
+  File "/opt/miniconda3/envs/lai/lib/python3.8/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/opt/miniconda3/envs/lai/lib/python3.8/asyncio/tasks.py", line 501, in wait_for
+    raise exceptions.TimeoutError()
+asyncio.exceptions.TimeoutError
