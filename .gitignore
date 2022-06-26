@@ -1,6 +1,6 @@
 
 data.tar.gz
-data/*
+data_1/*
 chemprop/*
 tox21_checkpoints/*
 *.pyc

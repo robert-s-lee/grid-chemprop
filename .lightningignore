@@ -1,4 +1,5 @@
-data/*
+chemprop/.git/*
+data_1/*
+chemprop/data.tar.gz
 data.tar.gz
-chemprop/*
 tox21_checkpoints/*
