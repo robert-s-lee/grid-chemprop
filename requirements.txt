@@ -1,1 +1,1 @@
-chemprop
+rdkit-pypi

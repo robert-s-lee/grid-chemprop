@@ -23,7 +23,6 @@ Datasets from MoleculeNet and a 450K subset of ChEMBL from http://www.bioinf.jku
 git clone https://github.com/chemprop/chemprop.git
 cd chemprop
 tar xvzf data.tar.gz
-grid datastore create --name chemprop --source data
 ```
 
 
